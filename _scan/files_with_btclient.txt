@@ -1,2 +1,0 @@
-C:\apktool\out_apktool\smali\com\ai2offline\test\Robot_Arm_and_Mecanum_Wheels_Robot\Screen1$frame.smali
-C:\apktool\out_apktool\smali\com\ai2offline\test\Robot_Arm_and_Mecanum_Wheels_Robot\Screen1.smali
