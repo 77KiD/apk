@@ -1,0 +1,5 @@
+C:\apktool\out_apktool\AndroidManifest.xml:3:    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+C:\apktool\out_apktool\AndroidManifest.xml:4:    <uses-permission android:name="android.permission.INTERNET"/>
+C:\apktool\out_apktool\AndroidManifest.xml:5:    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+C:\apktool\out_apktool\AndroidManifest.xml:6:    <uses-permission android:name="android.permission.BLUETOOTH"/>
+C:\apktool\out_apktool\AndroidManifest.xml:7:    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>

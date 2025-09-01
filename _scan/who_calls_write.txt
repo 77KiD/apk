@@ -1,0 +1,216 @@
+﻿
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1689:    int-to-byte v4, v4
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1690:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1691:    aput-byte v4, v0, v6
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1692:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1693:    .line 408
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1694:    shr-int/lit8 v3, v3, 0x8
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1695:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1696:    .line 409
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1697:    and-int/lit16 v4, v3, 0xff
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1698:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1699:    int-to-byte v4, v4
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1700:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1701:    aput-byte v4, v0, v7
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1702:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1703:    goto :goto_0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1704:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1705:    .line 417
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1706:    :cond_1
+> smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1707:    invoke-virtual {p0, v2, v0}, L
+com/google/appinventor/components/runtime/BluetoothConnectionBase;->write(Ljava/lang/String;[B)V
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1708:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1709:    goto :goto_1
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1710:.end method
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1711:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1712:.method public Send4ByteNumber(Lja
+va/lang/String;)V
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1713:    .locals 14
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1714:    .param p1, "number"    # Ljava
+/lang/String;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1715:    .annotation runtime Lcom/googl
+e/appinventor/components/annotations/SimpleFunction;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1716:        description = "Send a 4-by
+te number to the connected Bluetooth device."
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1717:    .end annotation
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1718:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1719:    .prologue
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1720:    const/4 v13, 0x2
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1721:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1722:    const/4 v12, 0x1
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1723:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1724:    const/4 v11, 0x0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1725:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1726:    const/16 v10, 0x8
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1727:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1728:    const-wide/16 v8, 0xff
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1729:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1730:    .line 432
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1731:    const-string v2, "Send4ByteNum
+ber"
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1732:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1733:    .line 435
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1734:    .local v2, "functionName":Ljav
+a/lang/String;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1735:    :try_start_0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1736:    invoke-static {p1}, Ljava/lang
+/Long;->decode(Ljava/lang/String;)Ljava/lang/Long;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1737:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1902:    .line 456
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1903:    shr-long/2addr v4, v10
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1904:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1905:    .line 457
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1906:    const/4 v3, 0x3
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1907:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1908:    and-long v6, v4, v8
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1909:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1910:    long-to-int v6, v6
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1911:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1912:    int-to-byte v6, v6
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1913:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1914:    aput-byte v6, v0, v3
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1915:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1916:    goto :goto_0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1917:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1918:    .line 465
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1919:    :cond_1
+> smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1920:    invoke-virtual {p0, v2, v0}, L
+com/google/appinventor/components/runtime/BluetoothConnectionBase;->write(Ljava/lang/String;[B)V
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1921:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1922:    goto :goto_1
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1923:.end method
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1924:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1925:.method public SendBytes(Lcom/goog
+le/appinventor/components/runtime/util/YailList;)V
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1926:    .locals 12
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1927:    .param p1, "list"    # Lcom/go
+ogle/appinventor/components/runtime/util/YailList;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1928:    .annotation runtime Lcom/googl
+e/appinventor/components/annotations/SimpleFunction;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1929:        description = "Send a list
+ of byte values to the connected Bluetooth device."
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1930:    .end annotation
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1931:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1932:    .prologue
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1933:    const/4 v9, 0x1
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1934:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1935:    const/4 v11, 0x0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1936:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1937:    .line 480
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1938:    const-string v4, "SendBytes"
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1939:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1940:    .line 481
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1941:    .local v4, "functionName":Ljav
+a/lang/String;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1942:    invoke-virtual {p1}, Lcom/goog
+le/appinventor/components/runtime/util/YailList;->toArray()[Ljava/lang/Object;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1943:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1944:    move-result-object v0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1945:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1946:    .line 482
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1947:    .local v0, "array":[Ljava/lang
+/Object;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1948:    array-length v8, v0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1949:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:1950:    new-array v1, v8, [B
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2047:    .line 492
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2048:    invoke-virtual {p0, v4, v8, v9
+}, Lcom/google/appinventor/components/runtime/BluetoothConnectionBase;->bluetoothError(Ljava/lang/String;I[Ljava/lang/O
+bject;)V
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2049:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2050:    goto :goto_1
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2051:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2052:    .line 483
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2053:    .end local v2    # "e":Ljava/l
+ang/NumberFormatException;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2054:    .restart local v6    # "n":I
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2055:    :cond_0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2056:    add-int/lit8 v5, v5, 0x1
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2057:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2058:    goto :goto_0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2059:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2060:    .line 504
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2061:    .end local v3    # "element":L
+java/lang/Object;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2062:    .end local v6    # "n":I
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2063:    .end local v7    # "s":Ljava/l
+ang/String;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2064:    :cond_1
+> smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2065:    invoke-virtual {p0, v4, v1}, L
+com/google/appinventor/components/runtime/BluetoothConnectionBase;->write(Ljava/lang/String;[B)V
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2066:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2067:    goto :goto_1
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2068:.end method
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2069:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2070:.method public SendText(Ljava/lang
+/String;)V
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2071:    .locals 5
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2072:    .param p1, "text"    # Ljava/l
+ang/String;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2073:    .annotation runtime Lcom/googl
+e/appinventor/components/annotations/SimpleFunction;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2074:        description = "Send text t
+o the connected Bluetooth device."
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2075:    .end annotation
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2076:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2077:    .prologue
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2078:    .line 337
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2079:    :try_start_0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2080:    iget-object v2, p0, Lcom/googl
+e/appinventor/components/runtime/BluetoothConnectionBase;->encoding:Ljava/lang/String;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2081:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2082:    invoke-virtual {p1, v2}, Ljava
+/lang/String;->getBytes(Ljava/lang/String;)[B
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2083:    :try_end_0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2084:    .catch Ljava/io/UnsupportedEnc
+odingException; {:try_start_0 .. :try_end_0} :catch_0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2085:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2086:    move-result-object v0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2087:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2088:    .line 342
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2089:    .local v0, "bytes":[B
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2090:    :goto_0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2091:    const-string v2, "SendText"
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2092:
+> smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2093:    invoke-virtual {p0, v2, v0}, L
+com/google/appinventor/components/runtime/BluetoothConnectionBase;->write(Ljava/lang/String;[B)V
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2094:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2095:    .line 343
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2096:    return-void
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2097:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2098:    .line 338
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2099:    .end local v0    # "bytes":[B
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2100:    :catch_0
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2101:    move-exception v1
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2102:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2103:    .line 339
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2104:    .local v1, "e":Ljava/io/Unsupp
+ortedEncodingException;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2105:    iget-object v2, p0, Lcom/googl
+e/appinventor/components/runtime/BluetoothConnectionBase;->logTag:Ljava/lang/String;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2106:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2107:    new-instance v3, Ljava/lang/St
+ringBuilder;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2108:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2109:    invoke-direct {v3}, Ljava/lang
+/StringBuilder;-><init>()V
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2110:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2111:    const-string v4, "UnsupportedE
+ncodingException: "
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2112:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2113:    invoke-virtual {v3, v4}, Ljava
+/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2114:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2115:    move-result-object v3
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2116:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2117:    invoke-virtual {v1}, Ljava/io/
+UnsupportedEncodingException;->getMessage()Ljava/lang/String;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2118:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2119:    move-result-object v4
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2120:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2121:    invoke-virtual {v3, v4}, Ljava
+/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2122:
+  smali\com\google\appinventor\components\runtime\BluetoothConnectionBase.smali:2123:    move-result-object v3
+
+
